@@ -1,0 +1,4 @@
+grpcio==1.60.1
+protobuf==5.26.1
+PyQt5==5.15.10
+PythonForWindows==0.6.5

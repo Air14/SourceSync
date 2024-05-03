@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "supports": "windows",
+  "builtin-baseline": "4bee3f5aae7aefbc129ca81c33d6a062b02fcf3b",
+  "dependencies": [
+    {
+      "name": "grpc",
+      "platform": "windows & x64 & static"
+    }
+  ]
+}

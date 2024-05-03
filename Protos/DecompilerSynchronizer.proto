@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+service DecompilerSynchronizer 
+{
+  rpc Initialize (EmptyRequestReply) returns (EmptyRequestReply) {}
+  rpc GetDecompiledModuleName (EmptyRequestReply) returns (DecompiledModuleNameReply) {}
+  rpc GeneratePdbForCallstack (GeneratePdbForCallstackRequest) returns (GeneratePdbForCallstackReply) {}
+  rpc GetPdbPath (EmptyRequestReply) returns (GetPdbPathReply) {}
+  rpc ShouldUpdateSymbols(EmptyRequestReply) returns (ShouldUpdateSymbolsReply) {}
+}
+
+message EmptyRequestReply 
+{
+}
+
+message DecompiledModuleNameReply 
+{
+  bool Status = 1;
+  string ModuleName = 2;
+}
+
+message FunctionBoundaries 
+{
+	uint64 StartOfFunctionRva = 1;
+	uint64 EndOfFunctionRva = 2;
+}
+
+message GeneratePdbForCallstackRequest
+{
+	repeated uint64 FunctionsRva = 1;
+}
+
+message GeneratePdbForCallstackReply
+{
+	bool Status = 1;
+	repeated FunctionBoundaries FunctionsBoundaries = 2;
+}
+
+message GetPdbPathReply
+{
+	bool Status = 1;
+	string PdbPath = 2;
+}
+
+message ShouldUpdateSymbolsReply
+{
+	bool Status = 1;
+}

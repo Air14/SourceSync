@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Demangle">
+      <UniqueIdentifier>{d8d72dd0-626d-4f8c-bb29-6b6d4764acff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Demangle">
+      <UniqueIdentifier>{108a422f-8f69-4be7-8c78-9efe469218f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceSyncTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaSymbols.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractionUT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Demangle\MicrosoftDemangle.cpp">
+      <Filter>Source Files\Demangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Demangle\MicrosoftDemangleNodes.cpp">
+      <Filter>Source Files\Demangle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DiaSymbols.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistersMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Demangle\MicrosoftDemangle.h">
+      <Filter>Header Files\Demangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Demangle\MicrosoftDemangleNodes.h">
+      <Filter>Header Files\Demangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Demangle\Demangle.h">
+      <Filter>Header Files\Demangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Demangle\DemangleConfig.h">
+      <Filter>Header Files\Demangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Demangle\StringViewExtras.h">
+      <Filter>Header Files\Demangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Demangle\Utility.h">
+      <Filter>Header Files\Demangle</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

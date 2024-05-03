@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindbgSync", "WindbgSync\WindbgSync.vcxproj", "{D5400CB5-9370-48D8-AF7C-B84A5C906EF7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PdbGeneratorPy", "PdbGeneratorPy\PdbGeneratorPy.vcxproj", "{64FF4589-B4A9-460C-89A0-689E18EE345D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SourceSyncTest", "SourceSyncTest\SourceSyncTest.vcxproj", "{4D09E26C-4D6C-48BB-8BA4-C74657AE9DB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5400CB5-9370-48D8-AF7C-B84A5C906EF7}.Debug|x64.ActiveCfg = Debug|x64
+		{D5400CB5-9370-48D8-AF7C-B84A5C906EF7}.Debug|x64.Build.0 = Debug|x64
+		{D5400CB5-9370-48D8-AF7C-B84A5C906EF7}.Release|x64.ActiveCfg = Release|x64
+		{D5400CB5-9370-48D8-AF7C-B84A5C906EF7}.Release|x64.Build.0 = Release|x64
+		{64FF4589-B4A9-460C-89A0-689E18EE345D}.Debug|x64.ActiveCfg = Debug|x64
+		{64FF4589-B4A9-460C-89A0-689E18EE345D}.Debug|x64.Build.0 = Debug|x64
+		{64FF4589-B4A9-460C-89A0-689E18EE345D}.Release|x64.ActiveCfg = Release|x64
+		{64FF4589-B4A9-460C-89A0-689E18EE345D}.Release|x64.Build.0 = Release|x64
+		{4D09E26C-4D6C-48BB-8BA4-C74657AE9DB4}.Debug|x64.ActiveCfg = Debug|x64
+		{4D09E26C-4D6C-48BB-8BA4-C74657AE9DB4}.Debug|x64.Build.0 = Debug|x64
+		{4D09E26C-4D6C-48BB-8BA4-C74657AE9DB4}.Release|x64.ActiveCfg = Release|x64
+		{4D09E26C-4D6C-48BB-8BA4-C74657AE9DB4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22750C26-0061-42A1-AB2E-A485C523EF67}
+	EndGlobalSection
+EndGlobal
